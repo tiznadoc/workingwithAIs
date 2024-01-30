@@ -1,0 +1,81 @@
+/* Body Styling */
+body {
+    background-color: #f4f4f4; /* Light body background */
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Form Container Styling */
+.form-container {
+    background-color: #ffffff; /* White background for the form container */
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-img {
+    width: 200px; /* Set the width to 100px */
+    height: 200px; /* Set the height to 100px */
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%; /* Apply rounded corners (50% for a circular shape) */
+    margin: 10px auto 20px; /* Center the image horizontally and add margin at the bottom */
+    display: block;
+    border: 3px solid #471869; /* 3px border with the specified color */
+}
+
+/* Heading Styling */
+h1 {
+    color: #471869; /* Heading color */
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #471869; /* Heading color */
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Description Styling */
+p {
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input Styling */
+label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+button {
+    background-color: #471869; /* Button color */
+    color: #fff; /* Text color */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover Effect for Button */
+button:hover {
+    background-color: #2e0e3b; /* Darker color on hover */
+}
