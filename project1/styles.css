@@ -1,0 +1,41 @@
+/* Container styles for centering and adding space */
+.container {
+    text-align: center; /* Center the content horizontally */
+    margin-top: 20px; /* Add space above the button */
+}
+
+/* Button styles */
+.rounded-button {
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove default button border */
+    background-color: #24292d; /* Twitter blue background color */
+    color: #fff; /* Text color */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Hover effect */
+.rounded-button:hover {
+    background-color: #0d8ae2; /* Darke
+
+r blue on hover */
+}/* Button styles with hover and click effects */
+.rounded-button {
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove default button border */
+    background-color: #24262d; /* Default background color */
+    color: #fff; /* Text color */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect */
+.rounded-button:hover {
+    background-color: #34414e; /* Brighter background color on hover */
+}
+
+/* Click effect */
+.rounded-button:active {
+    background-color: #1c232a; /* Darker background color when clicked */
+}
