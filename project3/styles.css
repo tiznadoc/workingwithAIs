@@ -1,0 +1,99 @@
+/* General styling for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Default background color */
+    background-image: none; /* Default background image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the invitation header */
+h1 {
+    color: #00afb9;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+/* Styling for the subheading */
+h2 {
+    color: #00afb9;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the description */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/* Styling for the RSVP form */
+form {
+    display: grid;
+    gap: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #00afb9;
+    color: #fff;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Styling for the confirmation message */
+#confirmationMessage {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Media query for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+    }
+    button {
+        font-size: 14px;
+    }
+}
