@@ -90,3 +90,17 @@ button:hover {
         padding: 10px;
     }
 }
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Reset Button Styles */
+#resetButton {
+    background-color: #007bff; /* Reset Button Color */
+}
+
+#resetButton:hover {
+    background-color: #1367c0; /* Darker color on hover */
+}

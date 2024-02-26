@@ -1,6 +1,13 @@
 // Array to store participants
 let participants = [];
 
+// Function to handle the Enter key press
+function handleEnter(event) {
+    if (event.key === 'Enter') {
+        addParticipant();
+    }
+}
+
 // Function to add a participant
 function addParticipant() {
     const nameInput = document.getElementById('participantName');
@@ -36,4 +43,14 @@ function drawWinner() {
     } else {
         winnerDisplay.innerHTML = '<p>No participants to draw from.</p>';
     }
+}
+
+// Function to reset the raffle
+function resetRaffle() {
+    const participantsList = document.getElementById('participantsList');
+    const winnerDisplay = document.getElementById('winnerDisplay');
+
+    participantsList.innerHTML = ''; // Clear the participants list
+    winnerDisplay.innerHTML = ''; // Clear the winner display
+    participants = []; // Reset participants array
 }
