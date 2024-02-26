@@ -104,3 +104,9 @@ button:hover {
 #resetButton:hover {
     background-color: #1367c0; /* Darker color on hover */
 }
+
+.material-icons {
+    vertical-align: middle;
+    position: relative;
+    top: -4px;  /* Adjust the value to fine-tune the alignment */
+}
